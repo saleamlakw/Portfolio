@@ -5,7 +5,9 @@ import { Navbar } from "./assets/Components/Navbar";
 import { MobileMenu } from "./assets/Components/MobileMenu";
 import { Home } from "./assets/Components/Sections/Home";
 import { About } from "./assets/Components/Sections/About";
+import { Projects } from "./assets/Components/Sections/Projects";
 import { useState } from "react";
+import { Contact } from "./assets/Components/Sections/Contact";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -23,6 +25,8 @@ function App() {
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
       <About />
+      <Projects />
+      <Contact />
     </>
   );
 }
