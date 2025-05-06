@@ -23,7 +23,7 @@ export const Projects = () => {
                 advanced product filtering and secure user authentication.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["Django", "Microsoft SQL Server", "JavaScript", "HTML", "CSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -59,7 +59,7 @@ export const Projects = () => {
                 over 11,000 URLs
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["Python", "Scikit-learn,", "Pandas,", "seaborn", "matplotlib", "GridSearchCV"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -99,7 +99,7 @@ export const Projects = () => {
                 search accuracy.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["Django", "scikit-learn", "Natural Language Toolkit", "HTML", "CSS", "JavaScript"].map(
                   (tech) => (
                     <span
                       key={tech}
