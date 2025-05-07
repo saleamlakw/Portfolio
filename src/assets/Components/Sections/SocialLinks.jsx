@@ -1,10 +1,10 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import leetcode from '/src/assets/leetcode.png';
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import leetcode from "/src/assets/leetcode.png";
 export default function SocialLinks() {
   return (
     <div className="flex justify-center space-x-8 mt-8">
       <a
-        href="https://leetcode.com/your_username"
+        href="https://leetcode.com/u/wendmnewsaleamlak/"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform"
@@ -13,7 +13,7 @@ export default function SocialLinks() {
       </a>
 
       <a
-        href="https://linkedin.com/in/your_username"
+        href="https://linkedin.com/in/saleamlak-wendmnew"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-blue-500 text-2xl"
@@ -22,7 +22,7 @@ export default function SocialLinks() {
       </a>
 
       <a
-        href="https://github.com/your_username"
+        href="https://github.com/saleamlakw"
         target="_blank"
         rel="noopener noreferrer"
         className="text-white hover:text-gray-400 text-2xl"
@@ -31,7 +31,7 @@ export default function SocialLinks() {
       </a>
 
       <a
-        href="mailto:your_email@gmail.com"
+        href="mailto:wendmnewsaleamlak@gmail.com"
         className="text-white hover:text-red-400 text-2xl"
       >
         <FaEnvelope />

@@ -3,7 +3,11 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = ["React", "TailwindCSS", "HTML", "CSS", "JavaScript"];
 
-  const backendSkills = ["Django", "Python", "MongoDB", "Mysql", "Gin(Golang)"];
+  const backendSkills = ["Django", "MongoDB", "Mysql", "Gin(Golang),"];
+
+  const developerTools = ["Git/Github", "Postman", "Docker", "Linux"]
+
+  const mlSkills = ["Scikit-learn", "NumPy"," Pandas", "Seaborn", "Matplotlib"];
 
   return (
     <section
@@ -55,8 +59,42 @@ export const About = () => {
                   ))}
                 </div>
               </div>
+
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4"> Devloper Tools</h3>
+                <div className="flex flex-wrap gap-2">
+                  {developerTools.map((tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                    "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4"> Machine Learning</h3>
+                <div className="flex flex-wrap gap-2">
+                  {mlSkills.map((tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
+                    "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
+
+          
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
