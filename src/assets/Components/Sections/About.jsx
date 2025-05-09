@@ -63,11 +63,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h3 className="text-xl font-bold mb-2  text-gray-300">
+                  <p className="text-xl font-bold mb-2  text-gray-300">
                     {" "}
-                    <strong> B.S. in Computer Science And Engineering</strong> -
-                    Adama Science and Technology University (2022-2026)
-                  </h3>
+                    <strong> B.S. in Computer Science And Engineering</strong>-
+                    Adama Science and Technology University (2022-2026)</p>
+                 
                   <ul className="list-disc list-inside text-gray-300 space-y-2">
                     <li>
                       Relevant Coursework: Data Structures, Web Development,
