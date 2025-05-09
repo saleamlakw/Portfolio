@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-
+import resumePDF from "/src/assets/Resume.pdf";
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -49,6 +49,17 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Contact{" "}
             </a>
+
+            <div className="text-center my-8">
+              <a
+                href={resumePDF}
+                download="My_Resume.pdf"
+                className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 
+             hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
+              >
+                📄 Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -5,9 +5,15 @@ export const About = () => {
 
   const backendSkills = ["Django", "MongoDB", "Mysql", "Gin(Golang),"];
 
-  const developerTools = ["Git/Github", "Postman", "Docker", "Linux"]
+  const developerTools = ["Git/Github", "Postman", "Docker", "Linux"];
 
-  const mlSkills = ["Scikit-learn", "NumPy"," Pandas", "Seaborn", "Matplotlib"];
+  const mlSkills = [
+    "Scikit-learn",
+    "NumPy",
+    " Pandas",
+    "Seaborn",
+    "Matplotlib",
+  ];
 
   return (
     <section
@@ -94,19 +100,18 @@ export const About = () => {
             </div>
           </div>
 
-          
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <p className="text-xl font-bold mb-2  text-gray-300">
+                  <p>
                     {" "}
-                    <strong> B.S. in Computer Science And Engineering</strong>-
-                    Adama Science and Technology University (2022-2026)</p>
-                 
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
+                    <strong className="text-xl font-bold mb-2  text-gray-300"> B.S. in Computer Science And Engineering</strong>-
+                    Adama Science and Technology University (2022-2026)
+                  </p>
+
+                  <ul className="list-disc list-inside text-gray-300 space-y-2 ml-5 mt-1">
                     <li>
                       Relevant Coursework: Data Structures, Web Development,
                       Computer Networks, Database Systems...
@@ -115,16 +120,16 @@ export const About = () => {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold mb-2  text-gray-300">
+                  <h3>
                     {" "}
-                    <strong>
+                    <strong className="text-xl font-bold mb-2  text-gray-300">
                       {" "}
                       Competitive Programming and Coding Academy
                     </strong>{" "}
-                    - Africa To Silicon Valley | A2 SV - Backed by Google
+                    - Africa To Silicon Valley | A2SV - Backed by Google
                     (2023-2025)
                   </h3>
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <ul className="list-disc list-inside text-gray-300 space-y-2 ml-5 mt-1">
                     <li>
                       A2SV graduate with a strong foundation in data structures
                       and algorithms (Solved over 1,400 problems on LeetCode and
@@ -139,16 +144,18 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h3 className="text-xl font-bold mb-2  text-gray-300">
+                  <h3>
                     {" "}
-                    Head of Education at A2SV (2025 - Present){" "}
+                    <strong className="text-xl font-bold mb-2  text-gray-300">Head of Education at A2SV </strong>(2025 - Present){" "}
                   </h3>
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <ul className="list-disc list-inside text-gray-300 space-y-2 ml-5 mt-1">
                     <li>
                       Delivered lectures with slides on advanced DSA topics
                       (e.g., sorting algorithms, sliding window), monitored
                       student progress with personalized support, curated
-                      problems from LeetCode/Codeforces/HackerRank, and
+                      problems from LeetCode/Codeforces/HackerRank.
+                    </li>
+                    <li>
                       organized programming contests to enhance problem-solving
                       skills.
                     </li>
@@ -156,17 +163,17 @@ export const About = () => {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold mb-2  text-gray-300">
+                  <h3>
                     {" "}
-                    Intern at Eskalate (2024){" "}
+                    <strong className="text-xl font-bold mb-2  text-gray-300">Intern at Eskalate</strong>(2024){" "}
                   </h3>
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <ul className="list-disc list-inside text-gray-300 space-y-2 ml-5 mt-1">
                     <li>
-                    Developed a RESTful backend with Go GIN, implemented JWT
-                    auth and email verification, optimized MongoDB with fuzzy
-                    search and TTL indexing, integrated Gemini LLM API for AI
-                    chat, and automated testing with Postman, reducing testing
-                    time by 50% and manual work by 90%.
+                      Developed a RESTful backend with Go GIN, implemented JWT
+                      auth and email verification, optimized MongoDB with fuzzy
+                      search and TTL indexing, integrated Gemini LLM API for AI
+                      chat, and automated testing with Postman, reducing testing
+                      time by 50% and manual work by 90%.
                     </li>
                   </ul>
                 </div>
