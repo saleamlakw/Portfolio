@@ -9,7 +9,7 @@ export default function SocialLinks() {
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform"
       >
-        <img src="Portfolio/leetcode.png" alt="LeetCode" className="w-6 h-6" />
+        <img src="leetcode.png" alt="LeetCode" className="w-6 h-6" />
       </a>
 
       <a
